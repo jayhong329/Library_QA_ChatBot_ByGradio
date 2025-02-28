@@ -10,12 +10,13 @@
 - sentence-transformers/paraphrase-mpnet-base-v2
 
 ## 安裝套件
-* gradio 5.6.0
-* gradio_client 1.4.3
-* jieba 0.42.1
-* fuzzywuzzy 0.18.0
-* faiss 1.8.0
-* openai 1.64.0
+* beautifulsoup4 4.13.3
+* gradio         5.6.0
+* gradio_client  1.4.3
+* jieba          0.42.1
+* fuzzywuzzy     0.18.0
+* faiss          1.8.0
+* openai         1.64.0
 * sentence-transformers 3.1.1
 
 ## 說明
