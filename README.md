@@ -29,7 +29,7 @@
 - 三. ChatByGradio - 結合以上兩份檔案，透過不同的檢索方式，構建聊天機器人 (jieba 中文斷詞 + FuzzyWuzzy 模糊搜尋 + FAISS 索引 + Sentence-BERT 語意搜尋) ，並重新設計 SYSTEM_PROMPT
 
 成果
-- 執行過程的擷圖 (測試從 SQl Database + Jieba + Fuzzywuzzy + Faiss + renew SYSTEM_PROMPT) 
+- 執行過程的擷圖 (測試從 SQl Database + Jieba + Fuzzywuzzy + Faiss + Sentence-BERT + renew SYSTEM_PROMPT) 
   ![image](https://github.com/user-attachments/assets/42a2ef09-f580-4c8a-8acf-57ce0ead1a3b)
   ![image](https://github.com/user-attachments/assets/6a86cff5-466a-4e8f-aea5-b6f05802b7ae)
   ![image](https://github.com/user-attachments/assets/87a7009d-4f03-459c-8748-809b89ceb445)
