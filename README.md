@@ -26,7 +26,7 @@
 總共分以下三個檔案夾:
 - 一. Web_scraping - 透過 web_scraping - BeautifulSoup 抓取資料，存入 SQL 內。
 - 二. Vector_index - 連線 SQL，存入 Database ，加入 SentenceTransformer 模型，生成向量索引，查找最相似的問題。
-- 三. ChatByGradio - 結合以上兩份檔案，透過不同的檢索方式，練習聊天機器人 ( FuzzyWuzzy + FAISS) ，構建 Gradio_ChatBot，並重新設計 SYSTEM_PROMPT
+- 三. ChatByGradio - 結合以上兩份檔案，透過不同的檢索方式，構建聊天機器人 (jieba 中文斷詞 + FuzzyWuzzy 模糊搜尋 + FAISS 索引 + Sentence-BERT 語意搜尋) ，並重新設計 SYSTEM_PROMPT
 
 成果
 - 執行過程的擷圖 (測試從 SQl Database + Jieba + Fuzzywuzzy + Faiss + renew SYSTEM_PROMPT) 
