@@ -17,6 +17,7 @@
 * fuzzywuzzy     0.18.0
 * faiss          1.8.0
 * openai         1.64.0
+* google-genai   1.2.0
 * sentence-transformers 3.1.1
 
 ## 說明
