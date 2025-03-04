@@ -4,7 +4,6 @@ import gradio as gr
 import pymysql
 import jieba
 from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 
 # Load the environment variables from .env file
 load_dotenv()
